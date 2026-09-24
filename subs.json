@@ -1,0 +1,22 @@
+{
+  "id": "ming.app.sub",
+  "name": "ming 脚本订阅",
+  "description": "个人脚本与小组件配置",
+  "author": "@ming",
+  "apps": [
+    {
+      "id": "ming.unicom",
+      "name": "中国联通",
+      "author": "@ming",
+      "keys": [
+        "unicom_cookie",
+        "unicom_updated"
+      ],
+      "descs_html": [
+        "<h3>联通 Cookie 获取</h3>",
+        "<p>开启 Quantumult X 配套重写及 MitM，打开中国联通 App 并刷新首页。</p>",
+        "<p>查询成功后自动保存 Cookie 和获取时间，可在下方数据区查看。</p>"
+      ]
+    }
+  ]
+}
